@@ -21,7 +21,7 @@ class Calculator extends React.Component {
     render() {
         return (
             <div className="frame">
-                <CalculatorTitle value="Gravdal Webutvikling Calculator" />
+                <CalculatorTitle value="Gravdal Webutvikling Kalkulator" />
                 <div className="mainCalc">
                     <OutputScreen question={this.state.question} answer={this.state.answer}/>
                     <div className="button-row">
